@@ -1,5 +1,4 @@
 
-import $ from 'jquery'; // jQueryootstrap JS
 
 $(document).ready(function() {
     "use strict";
