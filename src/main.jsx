@@ -15,7 +15,6 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 // import 'owl.carousel';
 import 'moment';
 import 'jquery'
-import $ from 'jquery';
 import './styles/bootstrap.min.css'
 // import 'tempusdominus-bootstrap-4/build/js/tempusdominus-bootstrap-4.min.js';
 
