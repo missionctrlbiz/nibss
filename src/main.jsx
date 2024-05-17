@@ -1,6 +1,5 @@
 //main.jsx
 
-import React from 'react';
 import { createRoot } from 'react-dom/client';
 import App from './App'; // Assuming App.jsx is in the same directory
 import './index.css'; // Add any global CSS here
@@ -14,7 +13,6 @@ import '@fortawesome/fontawesome-free/css/all.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 // import 'owl.carousel';
 import 'moment';
-import 'jquery'
 import './styles/bootstrap.min.css'
 // import 'tempusdominus-bootstrap-4/build/js/tempusdominus-bootstrap-4.min.js';
 
