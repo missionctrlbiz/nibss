@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Sidebar from './components/Sidebar';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import ToTop from './components/ToTop';
+import ScrollToTopButton from './components/ScrollToTopButton/ScrollToTopButton';
 import Dashboard from './components/Dashboard/Dashboard';
 import Billers from './components/Billers/Billers';
 import Mandates from './components/Mandates/Mandates';
@@ -33,7 +33,7 @@ function App() {
                         <Route path="/signup" element={<SignUp />} />
                         <Route path="*" element={<NotFound />} />
                     </Routes>
-                    <ToTop />
+                    <ScrollToTopButton />
                 <Footer /> 
                 </div>
             </div>

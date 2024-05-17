@@ -65,40 +65,41 @@ const Dashboard = () => {
       <div className="row g-4">
         <div className="col-sm-6 col-xl-3">
           <div className="bg-light rounded d-flex align-items-center justify-content-between p-4">
-            <i className="fa fa-chart-line fa-3x text-primary"></i>
-            <div className="ms-3">
+            <i className="fa fa-users fa-3x text-primary"></i>
+            <div className="ms-3 d-flex flex-column align-items-end">
               <p className="mb-2">Total Billers</p>
-              <h6 className="mb-0">1234</h6>
+              <h6 className="mb-0">134</h6>
             </div>
           </div>
         </div>
         <div className="col-sm-6 col-xl-3">
           <div className="bg-light rounded d-flex align-items-center justify-content-between p-4">
-            <i className="fa fa-chart-bar fa-3x text-primary"></i>
-            <div className="ms-3">
+            <i className="fa fa-dollar fa-3x text-primary"></i>
+            <div className="ms-3 d-flex flex-column align-items-end">
               <p className="mb-2">Total Transactions</p>
-              <h6 className="mb-0">5678</h6>
+              <h6 className="mb-0">$567,808</h6>
             </div>
           </div>
         </div>
         <div className="col-sm-6 col-xl-3">
           <div className="bg-light rounded d-flex align-items-center justify-content-between p-4">
-            <i className="fa fa-chart-area fa-3x text-primary"></i>
-            <div className="ms-3">
+            <i className="fa fa-file-alt fa-3x text-primary"></i>
+            <div className="ms-3 d-flex flex-column align-items-end">
               <p className="mb-2">Total Mandates</p>
-              <h6 className="mb-0">91011</h6>
+              <h6 className="mb-0">411</h6>
             </div>
           </div>
         </div>
         <div className="col-sm-6 col-xl-3">
           <div className="bg-light rounded d-flex align-items-center justify-content-between p-4">
-            <i className="fa fa-chart-pie fa-3x text-primary"></i>
-            <div className="ms-3">
+            <i className="fa fa-money fa-3x text-primary"></i>
+            <div className="ms-3 d-flex flex-column align-items-end">
               <p className="mb-2">Total Revenue</p>
-              <h6 className="mb-0">$1234</h6>
+              <h6 className="mb-0">$128,734</h6>
             </div>
           </div>
         </div>
+
       </div>
       <div className="row g-4 pt-4">
         <div className="col-sm-12">
@@ -116,6 +117,7 @@ const Dashboard = () => {
           </div>
         </div>
       </div>
+      
     </div>
   );
 };
